@@ -5,7 +5,7 @@ Archivos importantes para ejecutar los ejemplos de [connect-applications](https:
 Contiene un curl-deployment que luego de levantado puede invocarse y luego hacer curl utilizando el dns de cualquier servicio de kubernetes de la siguiente manera
 ```
 kubectl apply -f ./curlpod.yaml
-kubectl exec curl-deployment-1515033274-1410r -- curl https://my-nginx --cacert /etc/nginx/ssl/nginx.crt
+kubectl exec curl-deployment-1515033274-1410r -- curl https://my-nginx --cacert /etc/nginx/ssl/tls.crt
 ```
 Como alternativa se tiene
 `kubectl run curl --image=radial/busyboxplus:curl -i --tty`
