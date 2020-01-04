@@ -35,3 +35,7 @@ Deployment nginx básico para experimentar
 
 ## pod-nginx-with-env-secrets.yaml
 Simple pod nginx con variables de entorno utilizando secrets
+
+create secret before:
+
+`kubectl create secret generic mysecret --from-literal=username=admin --from-literal=password=secret --from-literal=endpoint1=http://localhost:8080`
