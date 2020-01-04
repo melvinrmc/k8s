@@ -32,3 +32,6 @@ Con preferred affinity para desplegar preferentemente el par [redis-cache, web-s
 
 ## run-my-nginx.yaml
 Deployment nginx básico para experimentar
+
+## pod-nginx-with-env-secrets.yaml
+Simple pod nginx con variables de entorno utilizando secrets
