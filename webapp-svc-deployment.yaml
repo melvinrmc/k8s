@@ -4,6 +4,9 @@ metadata:
   name: webapp1
 spec:
   replicas: 1
+  selector:
+    matchLabels:
+      app: webapp1
   template:
     metadata:
       labels:
@@ -21,6 +24,9 @@ metadata:
   name: webapp2
 spec:
   replicas: 1
+  selector:
+    matchLabels:
+      app: webapp2
   template:
     metadata:
       labels:
@@ -38,6 +44,9 @@ metadata:
   name: webapp3
 spec:
   replicas: 1
+  selector:
+    matchLabels:
+      app: webapp3
   template:
     metadata:
       labels:
