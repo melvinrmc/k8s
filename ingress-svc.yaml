@@ -15,4 +15,4 @@ spec:
     protocol: TCP
     name: https
   selector:
-    app: ingress-nginx
+    app.kubernetes.io/name: ingress-nginx
