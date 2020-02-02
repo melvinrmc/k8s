@@ -13,7 +13,7 @@ que levanta un contenedor y da acceso a linea de comando para ejecutar curl util
 
 # Ingress
 
-## ingress-rules-v2.yaml
+## ingress-rules.yaml
 Ingress de ejemplo utilizado en 
 https://katacoda.com/courses/kubernetes/create-kubernetes-ingress-routes
 
