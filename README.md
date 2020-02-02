@@ -12,6 +12,11 @@ Como alternativa se tiene
 que levanta un contenedor y da acceso a linea de comando para ejecutar curl utilizando el dns kubernetes para los servicios
 
 # Ingress
+
+## ingress-rules-v2.yaml
+Ingress de ejemplo utilizado en 
+https://katacoda.com/courses/kubernetes/create-kubernetes-ingress-routes
+
 ## ingress-rules-v2.yaml
 Versión mejorada de webapp-ingress que incluye seguridad TLS utilizando Secrets
 
