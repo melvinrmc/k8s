@@ -11,12 +11,16 @@ Como alternativa se tiene
 `kubectl run curl --image=radial/busyboxplus:curl -i --tty`
 que levanta un contenedor y da acceso a linea de comando para ejecutar curl utilizando el dns kubernetes para los servicios
 
+# Ingress
 ## ingress-rules-v2.yaml
 Versión mejorada de webapp-ingress que incluye seguridad TLS utilizando Secrets
 
 Adding TLS to Katacoda Example
 Katacoda Example with TLS
 https://katacoda.com/courses/kubernetes/create-kubernetes-ingress-routes
+
+## webapp-svc-deployment.yaml
+Despliegue de 3 aplicaciones y 3 servicios para test de Ingress
 
 ## nginx-secure-app.yaml
 Servicio my-nginx con seguridad
